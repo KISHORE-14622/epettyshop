@@ -17,7 +17,7 @@ export function Header({ title, subtitle, actions }: HeaderProps) {
         </div>
       </div>
 
-      <div className="flex items-center gap-3 overflow-x-auto pb-1 md:pb-0 scroll-smooth">
+      <div className="flex flex-wrap md:flex-nowrap items-center gap-3 pb-1 md:pb-0">
         {/* Search */}
         <div className="relative hidden md:flex items-center">
           <Search size={14} className="absolute left-3 text-text-muted" />
