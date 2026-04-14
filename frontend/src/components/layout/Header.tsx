@@ -9,7 +9,7 @@ interface HeaderProps {
 
 export function Header({ title, subtitle, actions }: HeaderProps) {
   return (
-    <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 px-4 md:px-6 py-4 border-b border-border bg-bg-surface sticky top-0 z-10 w-full overflow-hidden">
+    <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 px-4 md:px-6 py-4 border-b border-border bg-bg-surface sticky top-0 z-10 w-full">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="font-display text-xl font-700 text-text-primary">{title}</h1>
